@@ -16,12 +16,12 @@
       color: #333;
     }
 
-    /* Hero Section بخلفية الصورة */
+    /* Hero Section */
     .hero {
       background: url("hero-bg.JPG") center center/cover no-repeat;
       color: #fff;
       text-align: center;
-      padding: 140px 20px 100px;
+      padding: 180px 20px 120px; /* نزول أكتر */
       position: relative;
     }
 
@@ -29,7 +29,7 @@
       content: "";
       position: absolute;
       inset: 0;
-      background: rgba(0,0,0,0.4);
+      background: rgba(0,0,0,0.45);
     }
 
     .hero h1, .hero p {
@@ -38,16 +38,16 @@
     }
 
     .hero h1 {
-      font-size: 34px;
-      margin-top: 150px; /* نزول أكتر لتحت */
-      margin-bottom: 15px;
+      font-size: 38px;
+      margin-top: 180px; /* نزول أكتر */
+      margin-bottom: 20px;
       text-shadow: 0 2px 6px rgba(0,0,0,0.6);
     }
 
     .hero p {
-      font-size: 20px;
-      margin-top: 20px; /* مسافة بين العنوان والجملة */
-      margin-bottom: 30px;
+      font-size: 22px;
+      margin-top: 25px;
+      margin-bottom: 40px;
       text-shadow: 0 2px 6px rgba(0,0,0,0.6);
     }
 
@@ -57,7 +57,7 @@
       width: 280px;
       margin: 15px auto;
       padding: 15px;
-      background-color: #1d3557;
+      background-color: #457b9d; /* أزرق فاتح متناسق */
       color: #fff;
       text-decoration: none;
       border-radius: 10px;
@@ -68,17 +68,23 @@
       text-align: center;
     }
 
-    .btn:hover { background-color: #457b9d; transform: translateY(-3px); }
-    .btn-video { background-color: #ff4500; }
-    .btn-video:hover { background-color: #e03d00; }
-    .btn-facebook { background-color: #1877f2; }
-    .btn-facebook:hover { background-color: #145dbf; }
-    .btn-youtube { background-color: #ff0000; }
-    .btn-youtube:hover { background-color: #cc0000; }
+    .btn:hover { background-color: #1d3557; transform: translateY(-3px); }
+
+    .btn-video { background-color: #e76f51; }
+    .btn-video:hover { background-color: #d45d3f; }
+
+    .btn-facebook { background-color: #457b9d; }
+    .btn-facebook:hover { background-color: #1d3557; }
+
+    .btn-youtube { background-color: #e63946; }
+    .btn-youtube:hover { background-color: #c62c38; }
+
     .btn-tiktok { background-color: #000; }
     .btn-tiktok:hover { background-color: #222; }
-    .btn-telegram { background-color: #0088cc; }
-    .btn-telegram:hover { background-color: #006fa1; }
+
+    .btn-telegram { background-color: #a8dadc; color: #1d3557; font-weight: bold; }
+    .btn-telegram:hover { background-color: #90c6c9; }
+
     .btn-whatsapp { background-color: #25d366; }
     .btn-whatsapp:hover { background-color: #1ebe5d; }
 
@@ -107,8 +113,8 @@
 
     /* Responsive */
     @media (max-width: 768px) {
-      .hero { padding: 100px 15px; }
-      .hero h1 { font-size: 28px; margin-top: 120px; }
+      .hero { padding: 120px 15px; }
+      .hero h1 { font-size: 28px; margin-top: 140px; }
       .hero p { font-size: 18px; }
       .btn { width: 90%; font-size: 16px; }
     }
