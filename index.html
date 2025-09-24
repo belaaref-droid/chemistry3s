@@ -18,10 +18,10 @@
 
     /* Hero Section بخلفية الصورة */
     .hero {
-      background: url("hero-bg.JPG") center center/cover no-repeat;
+      background: url("hero-bg.jpg") center center/cover no-repeat;
       color: #fff;
       text-align: center;
-      padding: 140px 20px;
+      padding: 140px 20px 100px;
       position: relative;
     }
 
@@ -39,6 +39,7 @@
 
     .hero h1 {
       font-size: 34px;
+      margin-top: 75px; /* نزول 2 سم تقريبا */
       margin-bottom: 15px;
       text-shadow: 0 2px 6px rgba(0,0,0,0.6);
     }
@@ -106,7 +107,7 @@
     /* Responsive */
     @media (max-width: 768px) {
       .hero { padding: 100px 15px; }
-      .hero h1 { font-size: 28px; }
+      .hero h1 { font-size: 28px; margin-top: 50px; }
       .hero p { font-size: 18px; }
       .btn { width: 90%; font-size: 16px; }
     }
